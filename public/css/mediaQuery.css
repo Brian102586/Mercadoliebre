@@ -1,0 +1,170 @@
+@media(min-width:361px) {
+    article {
+        display: inline;
+        width: 48%;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+
+    }
+
+
+    .main-navbar {
+        display: none;
+    }
+
+    .hamburguer-button {
+
+        background-color: #03264C;
+        color: #ffffff;
+        display: block;
+        max-width: 50px;
+        padding: 15px 0;
+        border-radius: 8px;
+        text-align: center;
+        font-size: 18px;
+        margin: auto;
+      
+        margin-bottom: 4px;
+    }
+    
+  
+    .descripcion {
+        display: none;
+    }
+
+    
+    .banner {
+        width: 100%;
+    }
+
+    .precio {
+
+        width: 30%;
+        border: 2px solid red;
+        font-size: 15px;
+    }
+
+    .descuento {
+        width: 70%;
+        border: 2px solid green;
+
+    }
+
+    .imagen-prod {
+        width: 90%;
+    }
+
+    .producto {
+        display: flex;
+    }
+
+    .icon-truck {
+        display: block;
+        color: #39b54a;
+        font-size: 16px;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #39b54a;
+        background-color: #FFF;
+        border-radius: 50%;
+        position: absolute;
+        right: 20px;
+        top: -15%;
+        
+        
+    }
+
+
+}
+
+/* ** NAVEGACION TABLET ** */
+
+@media(min-width: 768px) {
+   
+    
+    .main-header-top-bar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .copy-header {
+        max-width: 350px;
+        text-align: right;
+    }
+
+    .hamburguer-button {
+        display: none;
+    }
+
+    .main-navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-navbar ul {
+        display: flex;
+    }
+
+    .main-navbar li {
+        margin: 0 5px;
+    }
+
+  
+
+    .descripcion {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* ** NAVEGACION DESKTOP ** */
+
+
+@media (min-width: 1200px) {
+   
+    article {
+        width: 23%;
+    }
+
+    .logo {
+        width: 250px;
+
+    }
+
+    .hamburguer-button {
+        display: none;
+    }
+
+    .main-header {
+
+        top: 0px;
+    }
+
+    .main-header-top-bar,
+    .main-navbar {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .main-header-top-bar {
+        align-items: center;
+    }
+
+    .copy-header {
+        max-width: none;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .main-navbar {
+        margin-top: 35px;
+    }
+
+    .main-navbar li {
+        margin: 0 10px;
+    }
+
+    .main-navbar a {
+        font-size: 19px;
+    }
+}
